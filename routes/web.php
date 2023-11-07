@@ -40,6 +40,7 @@ Route::middleware(['adminauth','prevent-back-history'])->group(function ()
     
     
 });
+Route::get('/admin', [AdminController::class,'viewlogin'])->name('admin.login');
 Route::get('/admin/login', [AdminController::class,'viewlogin'])->name('admin.login');
 Route::post('/admin/login/action', [AdminController::class,'actionlogin'])->name('admin.loginaction');
 Route::get('/admin/login/actiongout', [AdminController::class,'actionlogout'])->name('admin.actionlogout');

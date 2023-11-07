@@ -156,7 +156,7 @@
 
                                                         <div class="inner">
                                                             <a
-                                                                href="https://themeger.shop/wordpress/katen/blog/2022/08/23/60-things-to-immediately-do-about-building/"><img
+                                                                href=""><img
                                                                     width="600" height="250"
                                                                     style="width: 600px!important"
                                                                     src="{{ asset('storage/'.$post->photo) }}"

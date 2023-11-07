@@ -3,11 +3,12 @@
         <div class="container-xl">
 
             <!-- logos  -->
-            <a href="" class="navbar-brand logo-dark"><img
-                    src="{{asset('storage/images/yahya-dark.png')}}" alt="Katen"
-                    width="118" height="26" /></a><a href="{{route('home')}}"
+            <a href="{{route('home')}}" class="navbar-brand logo-dark"><img
+                    src="{{asset('storage/images/yahya-dark.png')}}" alt="Katen" 
+                    width="118" height="26"  /></a>
+                    <a href="{{route('home')}}"
                 class="navbar-brand logo-light"><img
-                    src="{{asset('storage/images/yahya-light.png')}}" alt="Katen"
+                    src="{{asset('storage/images/yahya-light.png')}}"  alt="Katen"
                     width="118" height="26" /></a>
 
 

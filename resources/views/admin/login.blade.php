@@ -3,7 +3,7 @@
 	<head>
 		<!-- Basic Page Info -->
 		<meta charset="utf-8" />
-		<title>DeskApp - Bootstrap Admin Dashboard HTML Template</title>
+		<title>login</title>
 
 		<!-- Site favicon -->
 		<link
@@ -102,7 +102,7 @@
 					<div class="col-md-6 col-lg-5">
 						<div class="login-box bg-white box-shadow border-radius-10">
 							<div class="login-title">
-								<h2 class="text-center text-dark">Login To DeskApp</h2>
+								<h2 class="text-center text-dark">Login</h2>
 							</div>
 							<form method="post" action="{{route('admin.loginaction')}}">
 								@csrf
